@@ -13,6 +13,7 @@ body {
     background-image: url('./assets/background.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .header-container {
@@ -134,6 +135,7 @@ button {
     background: #ffd700;
     color: #000;
     font-weight: 700;
+    font-family: sans-serif;
     border-radius: 4px;
     border: 1px solid #000;
     cursor: pointer;
