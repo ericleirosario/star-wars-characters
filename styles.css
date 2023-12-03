@@ -54,6 +54,7 @@ i {
 
 i:hover {
     color: #fff;
+    transform: scale(1.2);
 }
 
 .main-container {
@@ -169,6 +170,45 @@ footer {
     font-weight: 500;
 }
 
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+}
+
+.modal-content {
+    width: 25vw;
+    height: 70vh;
+    background: #0d0d0d;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 10px;
+}
+
+.character-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.character-details {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #ffd700;
+}
 
 @media screen and (max-width: 480px) {
     .header-container {
